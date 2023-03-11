@@ -20,6 +20,7 @@ from keras.preprocessing import sequence
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from keras.preprocessing import text
 from keras.preprocessing.text import Tokenizer
+@st.experimental_singleton
 
 
 # path of the model
